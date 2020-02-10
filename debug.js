@@ -56,7 +56,7 @@ function test(){
             xS = tempS;
             xE = tempL;
 
-            temps = Math.min(yS, yE);
+            tempS = Math.min(yS, yE);
             tempL = Math.max(yS, yE);
 
             yS = tempS;
